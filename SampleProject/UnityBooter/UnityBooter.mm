@@ -17,7 +17,7 @@ bool UnityParseCommandLine(int argc, char *argv[]);
 
 
 @implementation UnityBooter
-- (id) initWithUnity:(UIApplication * )application withLaunchOptions:(NSDictionary * )launchOptions {
+- (id) initWithApp:(UIApplication * )application withLaunchOptions:(NSDictionary * )launchOptions {
     if (self = [super init]) {
         RegisterMonoModules();
         

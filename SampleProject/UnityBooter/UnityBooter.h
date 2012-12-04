@@ -10,6 +10,6 @@
 
 @interface UnityBooter : NSObject
 
-- (id) initWithUnity:(UIApplication * )application withLaunchOptions:(NSDictionary * )launchOptions;
+- (id) initWithApp:(UIApplication * )application withLaunchOptions:(NSDictionary * )launchOptions;
 
 @end

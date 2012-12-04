@@ -22,7 +22,7 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
-    UnityBooter * booter = [[UnityBooter alloc]initWithUnity:application withLaunchOptions:launchOptions];
+    UnityBooter * booter = [[UnityBooter alloc]initWithApp:application withLaunchOptions:launchOptions];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
